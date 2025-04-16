@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    background-color:rgb(233, 231, 231);
+    align-items: center;
+     font-family: "Roboto", serif;
+     font-optical-sizing: auto;
+}
+.container{
+    position:relative;
+    left:500px;
+    box-sizing: border-box;
+    height:600px;
+    width:380px;
+    background-color: #fdfdfd;
+    padding:20px;
+    border-radius:10px;
+    
+
+}
+.image{
+    position:relative;
+    right:13.5px;
+    bottom:14.5px;
+     border-radius:10px;
+     height:216px;
+     width:368px;
+ }
+ .image img{
+     border-radius:10px;
+      height:216px;
+     width:368px;
+ }
+.lo{
+    background-color:white;
+    position:relative;
+    bottom:13px;
+    right:10px;
+    
+
+}
+.lo ul{
+    background-color:white;
+    padding:2px;
+    
+}
+.lo ul li{
+   box-sizing: border-box;
+    display:inline-block;
+    padding:5px;
+    background-color:rgb(254 248 248 / 84%);
+    border:1px solid #a29e9e;
+    border-radius:890px;
+    color:grey;
+    height: 30px;
+
+    
+}
+.hdng h2{
+    background-color: white;
+    font-weight:400;
+}
+.data p{
+    background-color: white;
+    font-size: small;
+    color:grey;
+}
+.read{
+    background-color: rgb(178, 205, 255);
+    color:rgb(59, 51, 206);
+    box-sizing: border-box;
+    width:120px;
+    position: relative;
+    top:15px;
+    left:75px;
+    border-radius: 20px;
+    box-shadow:1px 2px 2px  #a29e9e;
+    
+    
+}
+.read p{
+    background-color: rgb(178, 205, 255);
+    color:rgb(59, 51, 206);
+    box-sizing: border-box;
+    position: relative;
+    left:42px;
+    border-radius: 20px;
+    box-shadow:2px 0.5px 5px  #a29e9e;
+}

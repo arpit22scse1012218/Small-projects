@@ -1,0 +1,145 @@
+.container{
+    position:sticky;
+    top:0px;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+    height:75px;
+    align-items:center;
+    font-size:17px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+.logo{
+    width:200px;
+    
+    
+}
+.logo img{
+    width:130px;
+    object-fit:cover;
+}
+
+
+
+.nav-list{
+    position:sticky;
+    top:0px;
+     display:flex;
+     justify-content:flex-end;
+     gap:55px;
+     height:10vh;
+     align-items: center;
+     flex-wrap: wrap;
+     flex-direction: row;
+   
+ }
+ .container2{
+
+    height:1400px;
+    display: grid;
+    grid-template-rows: 200px 30px 150px 10px 1000px;
+    align-items: center;
+    justify-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .biglines{
+    font-size:50px;
+    posiition:relative;
+    top:10px;
+ 
+ }
+.belowcontent{
+ font-size: 22px;
+ position: relative;
+ bottom:50px;
+}
+.button1{
+    border: 1px solid snow;
+    background-color: rgb(73, 134, 255);
+    color:white;
+    font-weight: 400;
+    border-radius: 10px;
+    height: 60px;
+    width: 300px;
+    box-sizing: border-box;
+    padding:18px;
+    position:relative;
+    bottom:50px;
+}
+.button1 a{
+    text-decoration: none;
+    color: rgb(223, 242, 249);
+    font-weight: bolder;
+}
+
+.snd img{
+      width:50px;
+      position:relative;
+      top:18px;
+}
+.s{
+    font-weight: 400;
+    font-size: x-large;
+    
+}
+.snd{
+    position: relative;
+    right:400px;
+}
+.gd{
+   
+    display: grid;
+    width:1000px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap:25px;
+ 
+}
+.gd div{
+    background-color: rgb(237 237 237);
+    border-radius: 2%;
+   
+}
+.gd div H6{
+    position:relative;
+    left:130px;
+    font-size:15px;
+
+
+}
+.button{
+    width:200px;
+    position:relative;
+    left:50px;
+    background-color:rgb(62, 232, 118);
+}
+.gd a{
+    position:relative;
+    left:35px;
+    text-decoration: none;
+    background-color:rgb(58, 177, 70);
+    padding:8px;
+    border-radius: 5%;
+    color:white;
+    font-weight:400;
+}
+.a{
+    position:relative;
+    left:140px;
+  font-size:x-small;
+   
+}
+.b{
+    position:relative;
+    left:90px;
+    font-size:x-small;
+}
+.container svg{
+    position:relative;
+    top:5px;
+   left:5px;
+}
+@media screen and (max-width{
+    
+}
